@@ -116,7 +116,7 @@ app.get("/search", (request, response) =>
 app.get("/logout", (request, response) =>
 {
     response.cookie("token", "");
-    response.redirect('/login');
+    response.redirect('/');
     // response.render("register.hbs", {
     //     title: "Register Page"
     // });
