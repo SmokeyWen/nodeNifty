@@ -81,7 +81,7 @@ app.get("/search", (request, response) =>
     }
     https.get({
         hostname: "api.cognitive.microsoft.com",
-        path: `/bing/v7.0/search?q=${encodeURIComponent(accountFunctions.getSignByToken(token) + " horoscope online store")}`,
+        path: `/bing/v7.0/search?q=${encodeURIComponent(accountFunctions.getSignByToken(token) + " horoscope Amazon")}`,
         headers: { 'Ocp-Apim-Subscription-Key': "fa4900c4123d4cc29e00561fa4991cb1" }
     }, res =>
     {
